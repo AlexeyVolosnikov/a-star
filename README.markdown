@@ -10,6 +10,9 @@ but for graphs with millions of nodes the overhead incurred to
 construct the graph can be expensive.  Considering that my use case was
 so simple, I decided to implement it myself.
 
+## Compatibility
+It is compatible with both linux & windows. If you want to use it on windows you should use python 32 bit version, instead of 64 bit. 
+
 ## Usage
 Run ```make``` to build the shared object file ```astar.so```.
 ``` python
